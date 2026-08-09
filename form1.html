@@ -1,0 +1,103 @@
+<html>
+ <head>
+  <title>
+   INFORMATION FORM
+  </title>
+ </head>
+<body>
+ <h1 style="color:green;text-align:center"><b><i><u>
+  Form for collecting information
+ </h1></u></i></b><br>
+ <h2 style="color:red;text-align:right">
+  <strong">
+  warning!
+ </strong>you are requested to fill the information correctly.
+ </h2><br>
+<div style="color:blue;border:5px solid red;background-color:pink">
+<form>
+ <!--name -->
+ <label for="t1">
+  Enter your name:
+ </label>
+  <input type="text" id="t1" name="Name" value=" " style="color:green"><br>
+ <!--father name -->
+ <label for="t2">
+  Enter your father name:
+ </label>
+  <input type="text" id="t2" name="F.Name" value="Mr." style="color:green"><br>
+ <!--mother name -->
+ <label for="t3">
+  Enter your mother name:
+ </label>
+  <input type="text" id="t3" name="M.Name" value="Mrs."><br>
+ <!--label for class-->
+<label for="c1">
+  In which class do you read:
+</label>
+ <!--creating dropdown least to select class-->
+<select name="class" id="c1">
+  <option value="9" style="color:green">9</option>
+  <option value="10" style="color:green">10</option>
+  <option value="11" style="color:green">11</option>
+  <option value="12" style="color:green">12</option>
+  <option value="Graduated" style="color:green">Graduated</option>
+</select><br>
+<!--creating a radio button for gender-->
+<b style="color:blue">What is your gender:</b>
+ <input type="radio" name="gender" id="g1" value="male">
+  <label for="g1" style="color:green">Male</label>
+ <input type="radio" name="gender" id="g2" value="female">
+  <label for="g2" style="color:green">Female</label>
+ <input type="radio" name="gender" id="g3" value="trans gender">
+  <label for="g3" style="color:green">Trans Gender</label>
+ <input type="radio" name="gender" id="g4" value="other">
+  <label for="g4" style="color:green">other</label><br><br>
+<!--from here detail like email,addhar no., ph. no are asked-->
+<label for="e1">
+ Email:
+</label>
+ <input type="email" name="email" id="e1" value="example@domain.com" style="color:green"><br>
+<label for="p1">
+ Phone Number:
+</label>
+ <input type="tel" name="telephone" id="p1" value=" " style="color:green"><br>
+<label for="a1">
+ Addhar Number:
+</label>
+ <input type="text" id="a1" name="addhar number" value=" " style="color:green"><br>
+<!-from this is asked from user that he or she is working in company or not-->
+<p>
+ Is you are working in any company?
+</p>
+<input type="radio" name="working" id="x1" value="yes">
+ <label for="x1" style="color:green">
+  Yes
+ </label>
+<input type="radio" name="working" id="x2" value="no">
+ <label for="x2" style="color:green">
+  No
+ </label>
+<!--we are asking from the user about his or her monthly income-->
+<label for="w1">
+ If yes,then what's your monthly wages:
+</label>
+<!--dropdown menu for asking wages-->
+<select id="w1" name="monthly wages">
+ <option value="5,000-10,000" style="color:green">5,000-10,000</option>
+ <option value="10,000-20,000" style="color:green">10,000-20,000</option>
+ <option value="20,000-40,000" style="color:green" selected>20,000-40,000</option>
+ <option value="40,000-60,000" style="color:green">40,000-60,000</option>
+ <option value="60,000-80,000" style="color:green">60,000-80,000</option>
+ <option value="80,000-1,00,000" style="color:green">80,000-1,00,000</option>
+ <option value="1,00,000-<b>...</b>"style="color:green">1,00,000-...</option>
+</select><br>
+<label for="h1">
+ what is the name of your company:
+</label>
+<div style="color:red">
+<input type="text" id="h1" name="company name" value=" " style="color:green"><br>
+<button type="submit" style="color:blue;border:5px solid green;background-color:red">SUBMIT</button>
+</form>
+</div>
+</body>
+</html>
